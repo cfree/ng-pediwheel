@@ -10,10 +10,9 @@ A physical Pedi-Wheel exists, but is large and may not be as readily available a
 
 #### Feature Idea Dump
 1. Round wheel spinnable by the user
-2. Swipe Delete - Using right finger-swipe gesutres to delete a trip
-3. Swipe Navigation - Using left finger-swipe gestures to view the previous page
-4. Display all same information that the physical Pedi-Wheel does when an orientation change occurs
-5. lbs to kg calculator
+2. Swipe Navigation - Using left finger-swipe gestures to view the previous page
+3. Display all same information that the physical Pedi-Wheel does when an orientation change occurs
+4. Pounds to kilograms calculator
   
 #### Actual Features
 - Sliding bar - displays selectors to pick from
