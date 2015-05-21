@@ -1,38 +1,30 @@
 <!DOCTYPE html>
-<html manifest="project3.manifest">
-<!--<html xmlns="http://www.w3.org/1999/xhtml" />-->
+<html manifest="pediwheel.manifest">
 <head>
-<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link href="style.css" rel="stylesheet" media="all" type="text/css" />
-<link rel="apple-touch-icon" href="images/icon.png"/>
-<link rel="apple-touch-startup-image" href="images/loading.png">
-<script language="javascript" type="text/javascript">
-	if(!(navigator.userAgent.match(/iPhone/i)) && !(navigator.userAgent.match(/iPod/i))) {
-		alert("Please view on iPhone or iPod Touch");
-		var answer = confirm("Load anyway?");
-		if(!answer) {
-			window.location = "http://www.apple.com/iphone";
-		}
-	}
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-	if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
-		var cache = window.applicationCache;
-		cache.addEventListener('error', cacheErrorListener, false);
-		window.applicationCache.update();
-		cache.addEventListener('updateready', function() { 
-			window.applicationCache.swapCache(); location.reload(true);
-		}, false);
-	}
-	
-	function catchErrorListener(e) {
-		alert('Error: '+e);	
-	}
-</script>
-<script language="javascript" type="text/javascript" src="script.js"></script>
+    <link href="assets/css/style.css" rel="stylesheet" media="all" type="text/css">
 
+    <link rel="apple-touch-icon" href="assets/img/icon.png"/>
+    <link rel="apple-touch-startup-image" href="assets/img/loading.png">
+
+    <script>
+    	if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
+    		var cache = window.applicationCache;
+    		cache.addEventListener('error', cacheErrorListener, false);
+    		window.applicationCache.update();
+    		cache.addEventListener('updateready', function() { 
+    			window.applicationCache.swapCache(); location.reload(true);
+    		}, false);
+    	}
+    	
+    	function catchErrorListener(e) {
+    		alert('Error: '+e);	
+    	}
+    </script>
+    <script src="assets/js/script.js"></script>
 </head>
-
 <body onorientationchange="changeOrientation();" onLoad="changeOrientation(); getData();">
 	<div id="pos90div"></div>
     <div id="neg90div"></div>
