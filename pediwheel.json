@@ -1,7 +1,7 @@
 [{
 	"title": "Pedi-Wheel",
 	"version": "2.0.0",
-	"revised": "04/20/2015",
+	"revised": "09/26/2015",
 	"sides": {
 		"Age": {
 			"setup": {
@@ -35,154 +35,154 @@
 					}
 				},
 				"blue": {
-					<value id="6 mos" color="blue">
-						<kg>7-8-8</kg>
-						<systolic>80-100</systolic>
-						<pulse>90-130</pulse>
-						<resp>24-40</resp>
-						<ett>3.5</ett>
-						<length>10</length>
-						<laryngoscope>1</laryngoscope>
-					</value>
-					<value id="9 mos" color="blue">
-						<kg>8-9-10</kg>
-						<systolic>80-100</systolic>
-						<pulse>90-130</pulse>
-						<resp>24-36</resp>
-						<ett>3.5</ett>
-						<length>10</length>
-						<laryngoscope>1</laryngoscope>
-					</value>
-					<value id="12 mos" color="blue">
-						<kg>9-10-11</kg>
-						<systolic>80-100</systolic>
-						<pulse>90-124</pulse>
-						<resp>20-30</resp>
-						<ett>4.0</ett>
-						<length>11</length>
-						<laryngoscope>1</laryngoscope>
-					</value>
-					<value id="15 mos" color="blue">
-						<kg>10-11-12</kg>
-						<systolic>80-110</systolic>
-						<pulse>90-124</pulse>
-						<resp>20-30</resp>
-						<ett>4.0</ett>
-						<length>11</length>
-						<laryngoscope>1</laryngoscope>
-					</value>
-					<value id="18 mos" color="blue">
-						<kg>11-11-12</kg>
-						<systolic>80-110</systolic>
-						<pulse>90-124</pulse>
-						<resp>20-30</resp>
-						<ett>4.0</ett>
-						<length>11</length>
-						<laryngoscope>1</laryngoscope>
-					</value>,
+					"6 mos": [
+						"7-8-8",
+						"80-100",
+						"90-130",
+						"24-40",
+						"3.5",
+						"10",
+						"1"
+					],
+					"9 mos": [
+						"8-9-10",
+						"80-100",
+						"90-130",
+						"24-36",
+						"3.5",
+						"10",
+						"1"
+					],
+					"12 mos": [
+						"9-10-11",
+						"80-100",
+						"90-124",
+						"20-30",
+						"4.0",
+						"11",
+						"1"
+					],
+					"15 mos": [
+						"10-11-12",
+						"80-110",
+						"90-124",
+						"20-30",
+						"4.0",
+						"11",
+						"1"
+					],
+					"18 mos": [
+						"11-11-12",
+						"80-110",
+						"90-124",
+						"20-30",
+						"4.0",
+						"11",
+						"1"
+					]
 				},
 				"red": {
-					<value id="2 yrs" color="red">
-						<kg>12-12-13</kg>
-						<systolic>80-110</systolic>
-						<pulse>90-120</pulse>
-						<resp>20-30</resp>
-						<ett>4.5</ett>
-						<length>12</length>
-						<laryngoscope>1-2</laryngoscope>
-					</value>
-					<value id="3 yrs" color="red">
-						<kg>13-14-15</kg>
-						<systolic>80-110</systolic>
-						<pulse>80-120</pulse>
-						<resp>20-30</resp>
-						<ett>4.5</ett>
-						<length>13</length>
-						<laryngoscope>1-2</laryngoscope>
-					</value>
-					<value id="4 yrs" color="red">
-						<kg>15-16-18</kg>
-						<systolic>80-110</systolic>
-						<pulse>80-120</pulse>
-						<resp>20-30</resp>
-						<ett>5.0</ett>
-						<length>14</length>
-						<laryngoscope>2</laryngoscope>
-					</value>
-					<value id="5 yrs" color="red">
-						<kg>17-18-20</kg>
-						<systolic>80-110</systolic>
-						<pulse>80-120</pulse>
-						<resp>20-30</resp>
-						<ett>5.0</ett>
-						<length>15</length>
-						<laryngoscope>2</laryngoscope>
-					</value>
-					<value id="6 yrs" color="red">
-						<kg>19-21-23</kg>
-						<systolic>82-110</systolic>
-						<pulse>70-110</pulse>
-						<resp>12-24</resp>
-						<ett>5.5</ett>
-						<length>15</length>
-						<laryngoscope>2</laryngoscope>
-					</value>
-					<value id="8 yrs" color="red">
-						<kg>23-26-29</kg>
-						<systolic>86-120</systolic>
-						<pulse>70-100</pulse>
-						<resp>12-24</resp>
-						<ett>6.0</ett>
-						<length>16</length>
-						<laryngoscope>2</laryngoscope>
-					</value>
+					"2 yrs": [
+						"12-12-13",
+						"80-110",
+						"90-120",
+						"20-30",
+						"4.5",
+						"12",
+						"1-2"
+					],
+					"3 yrs": [
+						"13-14-15",
+						"80-110",
+						"80-120",
+						"20-30",
+						"4.5",
+						"13",
+						"1-2"
+					],
+					"4 yrs": [
+						"15-16-18",
+						"80-110",
+						"80-120",
+						"20-30",
+						"5.0",
+						"14",
+						"2"
+					],
+					"5 yrs": [
+						"17-18-20",
+						"80-110",
+						"80-120",
+						"20-30",
+						"5.0",
+						"15",
+						"2"
+					],
+					"6 yrs": [
+						"19-21-23",
+						"82-110",
+						"70-110",
+						"12-24",
+						"5.5",
+						"15",
+						"2"
+					],
+					"8 yrs": [
+						"23-26-29",
+						"86-120",
+						"70-100",
+						"12-24",
+						"6.0",
+						"16",
+						"2"
+					]
 				},
 				"pink": {
-					<value id="10 yrs" color="pink">
-						<kg>29-33-37</kg>
-						<systolic>90-120</systolic>
-						<pulse>60-90</pulse>
-						<resp>12-20</resp>
-						<ett>6.5</ett>
-						<length>17</length>
-						<laryngoscope>2-3</laryngoscope>
-					</value>
-					<value id="12 yrs" color="pink">
-						<kg>36-41-48</kg>
-						<systolic>90-140</systolic>
-						<pulse>60-90</pulse>
-						<resp>12-20</resp>
-						<ett>6.5</ett>
-						<length>18</length>
-						<laryngoscope>2-3</laryngoscope>
-					</value>
-					<value id="14 yrs" color="pink">
-						<kg>45-50-57</kg>
-						<systolic>90-140</systolic>
-						<pulse>60-90</pulse>
-						<resp>12-20</resp>
-						<ett>6.5</ett>
-						<length>19</length>
-						<laryngoscope>3</laryngoscope>
-					</value>
-					<value id="15 yrs" color="pink">
-						<kg>49-54-62</kg>
-						<systolic>90-140</systolic>
-						<pulse>60-90</pulse>
-						<resp>12-20</resp>
-						<ett>7.0</ett>
-						<length>20</length>
-						<laryngoscope>3</laryngoscope>
-					</value>
-					<value id="16 yrs" color="pink">
-						<kg>52-58-66</kg>
-						<systolic>90-140</systolic>
-						<pulse>60-90</pulse>
-						<resp>12-20</resp>
-						<ett>7.5</ett>
-						<length>21</length>
-						<laryngoscope>3-4</laryngoscope>
-					</value>
+					"10 yrs": [
+						"29-33-37",
+						"90-120",
+						"60-90",
+						"12-20",
+						"6.5",
+						"17",
+						"2-3"
+					],
+					"12 yrs": [
+						"36-41-48",
+						"90-140",
+						"60-90",
+						"12-20",
+						"6.5",
+						"18",
+						"2-3"
+					],
+					"14 yrs": [
+						"45-50-57",
+						"90-140",
+						"60-90",
+						"12-20",
+						"6.5",
+						"19",
+						"3"
+					],
+					"15 yrs": [
+						"49-54-62",
+						"90-140",
+						"60-90",
+						"12-20",
+						"7.0",
+						"20",
+						"3"
+					],
+					"16 yrs": [
+						"52-58-66",
+						"90-140",
+						"60-90",
+						"12-20",
+						"7.5",
+						"21",
+						"3-4"
+					]
 				}
 			}
 		},
@@ -235,165 +235,165 @@
 						"2",
 						"0.2"
 					],
-					<value id="3 kg" color="sky">
-						<first>0.3-0.6</first>
-						<second>15</second>
-						<third>0.1</third>
-						<fourth>0.3</fourth>
-						<fifth>0.03</fifth>
-						<sixth>3</sixth>
-						<seventh>0.3</seventh>
-					</value>
-					<value id="5 kg" color="sky">
-						<first>0.5-1</first>
-						<second>25</second>
-						<third>0.1</third>
-						<fourth>0.5</fourth>
-						<fifth>0.05</fifth>
-						<sixth>5</sixth>
-						<seventh>0.5</seventh>
-					</value>
+					"3 kg": [
+						"0.3-0.6",
+						"15",
+						"0.1",
+						"0.3",
+						"0.03",
+						"3",
+						"0.3"
+					],
+					"5 kg": [
+						"0.5-1",
+						"25",
+						"0.1",
+						"0.5",
+						"0.05",
+						"5",
+						"0.5"
+					],
 				},
 				"blue": {
-					<value id="7 kg" color="blue">
-						<first>0.7-1.4</first>
-						<second>35</second>
-						<third>0.14</third>
-						<fourth>0.7</fourth>
-						<fifth>0.07</fifth>
-						<sixth>7</sixth>
-						<seventh>0.7</seventh>
-					</value>
-					<value id="10 kg" color="blue">
-						<first>1-2</first>
-						<second>50</second>
-						<third>0.2</third>
-						<fourth>1</fourth>
-						<fifth>0.1</fifth>
-						<sixth>10</sixth>
-						<seventh>1</seventh>
-					</value>
+					"7 kg": [
+						"0.7-1.4",
+						"35",
+						"0.14",
+						"0.7",
+						"0.07",
+						"7",
+						"0.7"
+					],
+					"10 kg": [
+						"1-2",
+						"50",
+						"0.2",
+						"1",
+						"0.1",
+						"10",
+						"1"
+					]
 				},
 				"red": {
-					<value id="15 kg" color="red">
-						<first>1.5-3</first>
-						<second>75</second>
-						<third>0.3</third>
-						<fourth>1.5</fourth>
-						<fifth>0.15</fifth>
-						<sixth>15</sixth>
-						<seventh>1.5</seventh>
-					</value>
-					<value id="20 kg" color="red">
-						<first>2-4</first>
-						<second>100</second>
-						<third>0.4</third>
-						<fourth>2</fourth>
-						<fifth>0.2</fifth>
-						<sixth>20</sixth>
-						<seventh>2</seventh>
-					</value>
-					<value id="25 kg" color="red">
-						<first>2.5-5</first>
-						<second>125</second>
-						<third>0.5</third>
-						<fourth>2.5</fourth>
-						<fifth>0.25</fifth>
-						<sixth>25</sixth>
-						<seventh>2</seventh>
-					</value>
-					<value id="30 kg" color="red">
-						<first>3-6</first>
-						<second>150</second>
-						<third>0.5</third>
-						<fourth>3</fourth>
-						<fifth>0.3</fifth>
-						<sixth>30</sixth>
-						<seventh>2</seventh>
-					</value>
+					"15 kg": [
+						"1.5-3",
+						"75",
+						"0.3",
+						"1.5",
+						"0.15",
+						"15",
+						"1.5"
+					],
+					"20 kg": [
+						"2-4",
+						"100",
+						"0.4",
+						"2",
+						"0.2",
+						"20",
+						"2"
+					],
+					"25 kg": [
+						"2.5-5",
+						"125",
+						"0.5",
+						"2.5",
+						"0.25",
+						"25",
+						"2"
+					],
+					"30 kg": [
+						"3-6",
+						"150",
+						"0.5",
+						"3",
+						"0.3",
+						"30",
+						"2"
+					]
 				},
 				"pink": {
-					<value id="35 kg" color="pink">
-						<first>3.5-7</first>
-						<second>175</second>
-						<third>0.5</third>
-						<fourth>3.5</fourth>
-						<fifth>0.35</fifth>
-						<sixth>35</sixth>
-						<seventh>2</seventh>
-					</value>
-					<value id="40 kg" color="pink">
-						<first>4-8</first>
-						<second>200</second>
-						<third>0.5</third>
-						<fourth>4</fourth>
-						<fifth>0.4</fifth>
-						<sixth>40</sixth>
-						<seventh>2</seventh>
-					</value>
-					<value id="45 kg" color="pink">
-						<first>4.5-9</first>
-						<second>225</second>
-						<third>0.5</third>
-						<fourth>4.5</fourth>
-						<fifth>0.45</fifth>
-						<sixth>45</sixth>
-						<seventh>2</seventh>
-					</value>
-					<value id="50 kg" color="pink">
-						<first>5-10</first>
-						<second>250</second>
-						<third>0.5</third>
-						<fourth>5</fourth>
-						<fifth>0.5</fifth>
-						<sixth>50</sixth>
-						<seventh>2</seventh>
-					</value>
-					<value id="55 kg" color="pink">
-						<first>5.5-11</first>
-						<second>275</second>
-						<third>0.5</third>
-						<fourth>5.5</fourth>
-						<fifth>0.55</fifth>
-						<sixth>55</sixth>
-						<seventh>2</seventh>
-					</value>
-					<value id="60 kg" color="pink">
-						<first>6-12</first>
-						<second>300</second>
-						<third>0.5</third>
-						<fourth>6</fourth>
-						<fifth>0.6</fifth>
-						<sixth>60</sixth>
-						<seventh>2</seventh>
-					</value>
-					<value id="65 kg" color="pink">
-						<first>6-12</first>
-						<second>325</second>
-						<third>0.5</third>
-						<fourth>6.5</fourth>
-						<fifth>0.65</fifth>
-						<sixth>65</sixth>
-						<seventh>2</seventh>
-					</value>
-					<value id="70 kg" color="pink">
-						<first>6-12</first>
-						<second>350</second>
-						<third>0.5</third>
-						<fourth>7</fourth>
-						<fifth>0.7</fifth>
-						<sixth>70</sixth>
-						<seventh>2</seventh>
-					</value>
-					<value id="75 kg" color="pink">
-						<first>6-12</first>
-						<second>375</second>
-						<third>0.5</third>
-						<fourth>7.5</fourth>
-						<fifth>0.75</fifth>
-						<sixth>75</sixth>
-						<seventh>2</seventh>
-					</value>
+					"35 kg": [
+						"3.5-7",
+						"175",
+						"0.5",
+						"3.5",
+						"0.35",
+						"35",
+						"2"
+					],
+					"40 kg": [
+						"4-8",
+						"200",
+						"0.5",
+						"4",
+						"0.4",
+						"40",
+						"2"
+					],
+					"45 kg": [
+						"4.5-9",
+						"225",
+						"0.5",
+						"4.5",
+						"0.45",
+						"45",
+						"2"
+					],
+					"50 kg": [
+						"5-10",
+						"250",
+						"0.5",
+						"5",
+						"0.5",
+						"50",
+						"2"
+					],
+					"55 kg": [
+						"5.5-11",
+						"275",
+						"0.5",
+						"5.5",
+						"0.55",
+						"55",
+						"2"
+					],
+					"60 kg": [
+						"6-12",
+						"300",
+						"0.5",
+						"6",
+						"0.6",
+						"60",
+						"2"
+					],
+					"65 kg": [
+						"6-12",
+						"325",
+						"0.5",
+						"6.5",
+						"0.65",
+						"65",
+						"2"
+					],
+					"70 kg": [
+						"6-12",
+						"350",
+						"0.5",
+						"7",
+						"0.7",
+						"70",
+						"2"
+					],
+					"75 kg": [
+						"6-12",
+						"375",
+						"0.5",
+						"7.5",
+						"0.75",
+						"75",
+						"2"
+					]
 				}
 			}
 		}
