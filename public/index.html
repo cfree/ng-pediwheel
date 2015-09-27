@@ -1,35 +1,40 @@
 <!doctype html>
-<html manifest="pediwheel.manifest" lang="us-en">
+<html lang="us-en">
 <head>
 <head>
-	<meta name="viewport" content="initial-scale=1; maximum-scale=1; user-scalable=0;">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta charset="utf-8">
 	<meta name="description" content="A pediatric patient quick-reference tool for Paramedics">
 
-	<title>Pedi-Wheel</title>
+	<title>Pediatric Wheel</title>
 
-	<link href="assets/css/style.css" rel="stylesheet" media="all" type="text/css">
+	<link href="assets/css/styles.css" rel="stylesheet" media="all" type="text/css">
 	<link rel="apple-touch-icon" href="assets/img/icon.png"/>
-	<link rel="apple-touch-startup-image" href="assets/img/loading.png">
 	<!-- Place favicon.ico in the root directory -->
-	
-	<script src="assets/js/script.js"></script>
 </head>
-<body>
+<body ng-app="pwApp">
 	<div class="container">
-		<header>
-
+		<header class="site__header">
+			<a ui-sref="/about" class="icon-about">About</a>
+			<h1 class="site__title">
+				<a href="/">Pediatric Wheel</a>
+			</h1>
 		</header>
 
-		<main>
+		<main class="site__content" ui-view></main>
 
-		</main>
-
-		<footer>
-
+		<footer class="site__footer">
+			<ul class="content__tabs">
+				<li><a ui-sref="tab-age" class="content-tab--active">Age</a></li>
+				<li><a ui-sref="tab-weight">Weight</a></li>
+			</ul>
 		</footer>
 	</div>
+
+	<script src="assets/vendor/angular.min.js"></script>
+	<script src="assets/vendor/angular-ui-router.min.js"></script>
+	<script src="assets/js/build.js"></script>
 </body>
 </html>
