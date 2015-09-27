@@ -1,0 +1,15 @@
+<section class="content">
+	<table>
+		<tr ng-repeat="(item, value) in vm.setup">
+			<td>{{ item }}</td>
+			<td ng-model="tile"></td>
+			<td>{{ value }}</td>
+		</tr>
+	</table>
+</section>
+
+<section class="content__window">
+	<ul>
+		<li ng-repeat="tile in vm.tiles">{{ vm.tiles }}</li>
+	</ul>
+</section>
