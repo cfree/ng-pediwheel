@@ -1,0 +1,10 @@
+{
+  "name": "pedi-wheel",
+  "version": "2.0.0",
+  "homepage": "https://github.com/cfree/pedi-wheel",
+  "authors": [
+    "Craig Freeman <craigfreeman@gmail.com>"
+  ],
+  "main": "public/index.html",
+  "license": "GPL-2.0"
+}

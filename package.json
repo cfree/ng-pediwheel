@@ -1,0 +1,44 @@
+{
+  "name": "pedi-wheel",
+  "version": "2.0.0",
+  "description": "A pediatric patient quick-reference tool for Paramedics",
+  "main": "public/index.html",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cfree/pedi-wheel.git"
+  },
+  "author": "Craig Freeman",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/cfree/pedi-wheel/issues"
+  },
+  "homepage": "https://github.com/cfree/pedi-wheel#readme",
+  "private": true,
+  "devDependencies": {
+    "angular": "^1.4.6",
+    "angular-ui-router": "^0.2.15",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.2",
+    "gulp-bower": "0.0.10",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-livereload": "^3.8.1",
+    "gulp-ng-annotate": "^1.1.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.5.2",
+    "karma": "^0.13.10",
+    "karma-mocha": "^0.2.0",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "mocha": "^2.3.3",
+    "phantomjs": "^1.9.18",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
