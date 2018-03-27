@@ -1,7 +1,7 @@
 # Pedi-Wheel
 A digital version of the Paramedic quick-reference tool.
 
-*Note* - This project, which was originally written for iOS 3 in 2009, has been slated for update and to be  re-written in AngularJS
+*Note* - This project, which was originally written for iOS 3 in 2009, has been slated for update and to be re-written as a SPA.
 
 #### Product Definition Statement
 The Pediatric Wheel (Pedi-Wheel) is a web application for Emergency Medical Technicians (EMT's) and Paramedics used as a memory jog in emergency situations involving pediatric patients. Since pediatrics are not common patients, pediatric-specific information may not be as easily recalled as adult-specific patient information. The purpose of the application is to provide EMS personnel with a quick reference to critical, relevant information quickly and easily.
